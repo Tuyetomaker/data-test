@@ -4,71 +4,33 @@
             "id": 1,
             "name": "João Silva",
             "email": "joao.silva@example.com",
-            "password": "hashed_password",
-            "profile": {
-                "bio": "Desenvolvedor Full Stack com 5 anos de experiência...",
-                "experience": [
-                    {
-                        "jobTitle": "Web developer",
-                        "Function": "Desenvolvedor Full Stack",
-                        "company": "Tuyetomaker",
-                        "startDate": "2019-07",
-                        "endDate": "2023-06",
-                        "description": "Trabalhou em diversos projetos, incluindo..."
-                    }
-                ],
-                "education": [
-                    {
-                        "qualification":18,
-                        "schoolName":"Tuyetomaker",
-                        "educationLevel":"Bacharelo",
-                        "startDate": "2019-07",
-                        "endDate": "2023-06"
-                    }
-                ],
-                "language":[
-                    {
-                        "language":"português",
-                        "leve":"native"
-                    }
-                ],
-                "skills": ["JavaScript", "React Native", "Node.js"]
-            }
-        }
-    ],
-    "jobs": [
-        {
-            "id": 1,
-            "title": "Desenvolvedor Frontend",
-            "description": "Procuramos um desenvolvedor frontend com experiência em React...",
-            "company": "Empresa ABC",
-            "postedAt": "2023-07-31",
-            "skillsRequired": ["React.js", "CSS", "HTML"]
+            "senha": "senha123",
+            "telefone": "123-456-7890",
+            "categoria": 0
         },
         {
             "id": 2,
-            "title": "Engenheiro de Backend",
-            "description": "Procuramos um engenheiro de backend com experiência em Node.js...",
-            "company": "Empresa DEF",
-            "postedAt": "2023-07-30",
-            "skillsRequired": ["Node.js", "Express.js", "MongoDB"]
-        }
-    ],
-    "applications": [
+            "name": "Maria Oliveira",
+            "email": "maria.oliveira@example.com",
+            "senha": "senha456",
+            "telefone": "234-567-8901",
+            "categoria": 1
+        },
         {
-            "id": 1,
-            "userId": 1,
-            "jobId": 1,
-            "appliedAt": "2023-07-31",
-            "status": "pending"
-        }
-    ],
-    "notifications": [
+            "id": 3,
+            "name": "Pedro Costa",
+            "email": "pedro.costa@example.com",
+            "senha": "senha789",
+            "telefone": "345-678-9012",
+            "categoria": 2
+        },
         {
-            "id": 1,
-            "userId": 1,
-            "message": "Sua candidatura ao emprego 'Desenvolvedor Frontend' foi enviada.",
-            "createdAt": "2023-07-31"
+            "id": 4,
+            "name": "Ana Santos",
+            "email": "ana.santos@example.com",
+            "senha": "senha012",
+            "telefone": "456-789-0123",
+            "categoria": 1
         }
     ]
 }
